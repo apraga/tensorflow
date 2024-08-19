@@ -35,7 +35,6 @@ update-alternatives --install /usr/bin/python3 python3 "/usr/bin/python${PYTHON_
 apt-get install -y \
   python3-pip \
   python3-setuptools \
-  python3-distutils \
   python3-venv \
   "python${PYTHON_VERSION}-venv"
 python3 -m pip install --ignore-installed --upgrade -r python_build_requirements.txt
